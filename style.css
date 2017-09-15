@@ -1,0 +1,64 @@
+/* TODO: Use local fonts */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+}
+
+.menu-header {
+    font-size: 18px;
+    padding: 16px 32px;
+}
+.menu-header li {
+    padding: 0 16px;
+}
+.menu-header li:first-of-type {
+    padding-left: 0;
+}
+.menu-header li:last-of-type {
+    padding-right: 0;
+}
+
+
+#grid-container {
+    display: grid;
+    background: linear-gradient(to top, #2979FF 0%, #7C4DFF 100%);
+    width: 100vw;
+    height: 100vh;
+    /* Place content in the middle of the grid */
+    justify-content: center;
+    align-content: center;
+}
+#grid-sub-div-1 {
+    grid-column: 3;
+}
+#grid-sub-div-2 {
+    grid-column: 4;
+    color: white;
+}
+
+#ihpone-image {
+    width: 50vw;
+}
+
+#app-topic {
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+}
+#app-text {
+    font-family: Ubuntu, sans-serif;
+    line-height: 1.4;
+    width: 30vw;
+}
+#appstore-badge-image {
+    margin-top: 16px;
+}
